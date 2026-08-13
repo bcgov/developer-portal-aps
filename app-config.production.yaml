@@ -22,8 +22,8 @@ search:
   pg:
     highlightOptions:
       useHighlight: true
-      maxWords: 45
-      minWords: 20
+      maxWords: 22
+      minWords: 10
       maxFragments: 2
       # PostgreSQL trims ordinary spaces around this option; non-breaking
       # spaces preserve visual separation between fragments in the UI.
